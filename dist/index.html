@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Studi - Asisten Akademik Pintar untuk Mahasiswa. Kelola tugas, jadwal kuliah, dan simulasi IPK dengan mudah." />
+    <meta name="theme-color" content="#0ea5e9" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Studi" />
+    
+    <!-- SEO optimizations -->
+    <meta property="og:title" content="Studi - Asisten Akademik Pintar" />
+    <meta property="og:description" content="Aplikasi untuk membantu mahasiswa mengelola tugas, jadwal kuliah, dan simulasi IPK dengan mudah dan efisien." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:url" content="https://studi-app.com" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Studi - Asisten Akademik Pintar" />
+    <meta name="twitter:description" content="Kelola kehidupan akademik dengan lebih terorganisir" />
+    <meta name="twitter:image" content="/og-image.png" />
+    
+    <!-- Additional meta tags -->
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Studi Team" />
+    <meta name="keywords" content="mahasiswa, akademik, tugas, jadwal kuliah, IPK, produktivitas, pendidikan" />
+    
+    <title>Studi - Asisten Akademik Pintar</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icons and manifests -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Performance optimizations -->
+    <style>
+      /* Critical CSS to prevent flash of unstyled content */
+      body { 
+        font-family: 'Inter', system-ui, sans-serif; 
+        margin: 0; 
+        background-color: #f9fafb; 
+        color: #111827;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        line-height: 1.6;
+      }
+      
+      #root { 
+        min-height: 100vh; 
+      }
+      
+      .loading { 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        min-height: 100vh; 
+        font-size: 18px; 
+        color: #6b7280; 
+      }
+
+      /* Skip link for accessibility */
+      .skip-link {
+        position: absolute;
+        top: -40px;
+        left: 6px;
+        background: #0ea5e9;
+        color: white;
+        padding: 8px;
+        text-decoration: none;
+        border-radius: 4px;
+        z-index: 1000;
+        transition: top 0.3s;
+      }
+
+      .skip-link:focus {
+        top: 6px;
+      }
+
+      /* Focus styles for better accessibility */
+      :focus-visible {
+        outline: 2px solid #0ea5e9;
+        outline-offset: 2px;
+      }
+
+      /* Reduce motion for accessibility */
+      @media (prefers-reduced-motion: reduce) {
+        *, *::before, *::after {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-73sCpE7a.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CQ85Ojr0.css">
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <div id="root">
+      <div class="loading">
+        <div style="text-align: center;">
+          <div style="width: 40px; height: 40px; border: 3px solid #e5e7eb; border-top: 3px solid #0ea5e9; border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto 16px;"></div>
+          <div>Memuat aplikasi...</div>
+        </div>
+      </div>
+    </div>
+    
+    <style>
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+    </style>
+  </body>
+</html>
